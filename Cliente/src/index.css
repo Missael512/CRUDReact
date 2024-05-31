@@ -1,0 +1,31 @@
+.datos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+label{
+    margin: 1rem 0 ;
+}
+
+.datos input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+
+.operationButton{
+    width: 100%;
+    border: none;
+    height: 2.4rem;
+    padding: 0;
+
+}
+
+.operationButton:hover{
+    background-color: rgb(255, 164, 164);
+}
